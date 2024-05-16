@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Potato Plant Disease Detection</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container clearfix">
+        <div class="aside">
+            <h2>Plant<br>Disease<br>Detection</h2>
+        </div>
+
+        <div class="main-menu">
+            <h2><i style="margin-right: 0.5em;" class="fa-solid fa-seedling"></i>Predict the disease</h2>
+
+            <div class="prediction-sect">
+                <div class="prediction-photo">
+                    <img id="selected-photo" src="" style="display: none;">
+                </div>
+                <div class="prediction-button">
+                    <form action="">
+                        <label for="predict-button">Select a Photo</label>
+                        <input id="predict-button" type="file" placeholder="" value="" accept="image/png, image/jpeg">
+                        <button id="predict-action" type="button" style="display: none;">Predict</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <!-- Modal -->
+    <div id="result-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p id="prediction-result"></p>
+        </div>
+    </div>
+
+    <script src="static/js/script.js"></script>
+</body>
+
+</html>
