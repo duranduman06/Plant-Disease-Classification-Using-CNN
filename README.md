@@ -26,6 +26,8 @@ To use these diseases, I divided the dataset into 5632 train, 1152 validation an
 
 
 ## Web Page with Flask Backend
-![1](https://github.com/duranduman06/Plant-Disease-Classification-Using-CNN/assets/92113157/49b0130b-365f-454c-8f75-f2397d4f7d09)
+![1](https://github.com/duranduman06/Plant-Disease-Classification-Using-CNN/assets/92113157/7840f93c-c9a4-4e74-8a27-fa9567a6a664)
+![2](https://github.com/duranduman06/Plant-Disease-Classification-Using-CNN/assets/92113157/7d35692c-51a6-41a5-a64a-63e6afbaa8b1)
 
-![2](https://github.com/duranduman06/Plant-Disease-Classification-Using-CNN/assets/92113157/844b63eb-1287-41db-9970-bdf3e19f030d)
+
+
